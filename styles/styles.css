@@ -1,0 +1,34 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.three, .painter-debug {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.invert-button {
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    padding: 15px 30px;
+    cursor: pointer;
+    border: 2px solid white;
+    letter-spacing: 8px;
+    opacity: 0.25;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transition: opacity 0.8s;
+    transition: opacity 0.8s;
+}
+
+.invert-button:hover {
+    opacity: 1;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "workshop-threejs-starter",
+  "version": "0.0.1",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "greensock": "~1.14.1",
+    "threejs": "*",
+    "dat-gui": "~0.5.0"
+  },
+  "dependencies": {
+    "stats.js": "*",
+    "buzz": "~1.1.7"
+  }
+}
